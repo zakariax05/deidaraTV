@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- تحسين محركات البحث - SEO -->
+    <title>بث مباشر مباراة المغرب والبرازيل | DeidaraTV - ديدارا تي في</title>
+    <meta name="description"
+        content="شاهد البث المباشر لمباراة المغرب ضد البرازيل بجودة عالية HD بدون تقطيع على DeidaraTV. تابع أهم مباريات اليوم والدوريات العالمية حصرياً.">
+    <meta name="keywords"
+        content="DeidaraTV, ديدارا تي في, بث مباشر, كرة قدم, مباراة المغرب اليوم, يلا شوت, بث مباشر بدون تقطيع, دوري أبطال أوروبا">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap');
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f1f5f9;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 1rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .bg-red-main {
+            background-color: #e11d48;
+        }
+
+        .btn-server {
+            transition: all 0.2s;
+            border: 1px solid #e2e8f0;
+        }
+
+        .btn-server:hover {
+            background-color: #e11d48;
+            color: white;
+            border-color: #e11d48;
+        }
+
+        .active-server {
+            background-color: #e11d48;
+            color: white;
+            border-color: #e11d48;
+        }
+    </style>
+</head>
+
+<body class="text-slate-800">
+
+    <!-- Header -->
+    <!-- هيدر صفحة المشاهدة - DeidaraTV Watching Page -->
+    <header class="bg-red-700 text-white shadow-2xl sticky top-0 z-[100] backdrop-blur-lg bg-opacity-95">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center h-14 md:h-18">
+
+                <!-- القسم الأيمن: الرجوع + اللوجو -->
+                <div class="flex items-center gap-4">
+                    <!-- زر العودة للرئيسية -->
+                    <a href="index.html"
+                        class="flex items-center gap-2 bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-lg transition-all text-xs md:text-sm font-bold border border-white/5">
+                        <i class="fas fa-chevron-right"></i>
+                        الرئيسية
+                    </a>
+
+                    <!-- اللوجو (إعادة تحميل عند الضغط) -->
+                    <!-- اللوجو المطور مع تحسين الأبعاد والتفاعل -->
+                    <div onclick="window.location.reload()"
+                        class="flex items-center gap-3 cursor-pointer group border-l border-white/20 pl-4 ml-4 select-none transition-all active:scale-95">
+
+                        <!-- تحسين حجم الصورة وضبطها لتكون متناسقة -->
+                        <img src="imgs/logo-deidaratv.png" alt="DeidaraTV Logo"
+                            class="h-16 md:h-11 w-auto object-contain group-hover:brightness-110 transition-all">
+
+                        <!-- النص مع ضبط الهوامش -->
+                        <div class="hidden sm:flex flex-col">
+                            <h1 class="text-xl md:text-2xl font-black italic tracking-tighter uppercase leading-none">
+                                Deidara<span class="text-red-200">TV</span>
+                            </h1>
+                            <!-- نص صغير اختياري يعطي شكل البراند -->
+                            <span class="text-[8px] font-bold opacity-60 tracking-widest uppercase mt-0.5">Live
+                                Stream</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- المنتصف: حالة البث (SEO & UX) -->
+                <div class="flex items-center gap-2 bg-black/20 px-4 py-1.5 rounded-full border border-white/10">
+                    <span class="relative flex h-2 w-2">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+                    </span>
+                    <span class="text-[10px] md:text-xs font-black uppercase tracking-widest italic">Live
+                        Streaming</span>
+                </div>
+
+                <!-- القسم الأيسر: أيقونات التواصل والوضع الليلي -->
+                <div class="flex items-center gap-3">
+                    <!-- أيقونة تليجرام (مهمة جداً في صفحة المشاهدة للدعم الفني) -->
+                    <a href="#" class="text-sky-400 hover:text-white transition-colors">
+                        <i class="fab fa-telegram text-xl md:text-2xl"></i>
+                    </a>
+
+                    <div class="h-6 w-[1px] bg-white/20 mx-1 hidden md:block"></div>
+
+                    <!-- زر جدول المباريات السريع -->
+                    <a href="#"
+                        class="hidden md:flex items-center gap-2 text-xs font-bold hover:text-red-200 transition-colors">
+                        <i class="fas fa-list-ul"></i>
+                        جدول اليوم
+                    </a>
+
+                    <!-- زر مشاركة المباراة -->
+                    <button
+                        class="bg-white/10 hover:bg-white/20 w-9 h-9 flex items-center justify-center rounded-lg transition-colors">
+                        <i class="fas fa-share-alt text-sm"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 max-w-5xl mt-8">
+
+        <!-- Match Title Area -->
+        <div
+            class="bg-white rounded-2xl p-4 mb-6 shadow-sm flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <span class="w-3 h-3 bg-red-600 rounded-full animate-ping"></span>
+                <h2 class="text-xl font-black italic text-slate-900">بث مباشر: المغرب × البرازيل</h2>
+            </div>
+            <div class="flex gap-2 text-xs font-bold">
+                <span class="bg-slate-100 px-3 py-1 rounded-full text-slate-500 italic">الجودة: Auto / 1080p</span>
+                <span class="bg-red-100 px-3 py-1 rounded-full text-red-600">LIVE - مباشر</span>
+            </div>
+        </div>
+
+        <!-- Player Section -->
+        <div class="video-container bg-black shadow-2xl">
+            <!-- Iframe Link provided -->
+            <iframe src="https://z1.depoooo.com/albaplayer/bein-1/?serv=1" allowfullscreen="true" scrolling="no"
+                allow="autoplay; encrypted-media">
+            </iframe>
+        </div>
+
+        <!-- Servers Selection -->
+        <div class="mt-6 flex flex-wrap gap-2 justify-center">
+            <button class="btn-server active-server px-6 py-2 rounded-xl font-bold text-sm">سيرفر 1 (رئيسي)</button>
+            <button class="btn-server px-6 py-2 rounded-xl font-bold text-sm bg-white">سيرفر 2</button>
+            <button class="btn-server px-6 py-2 rounded-xl font-bold text-sm bg-white">سيرفر 3 (متعدد)</button>
+            <button class="btn-server px-6 py-2 rounded-xl font-bold text-sm bg-white">سيرفر 4 (للضعيف)</button>
+        </div>
+
+        <!-- SEO Content Section -->
+        <article class="mt-12 bg-white rounded-3xl p-8 shadow-sm border border-slate-100">
+            <h3 class="text-2xl font-black text-red-main mb-6 border-r-4 border-red-main pr-4 italic">لماذا تشاهد عبر
+                DeidaraTV؟</h3>
+
+            <div class="grid md:grid-cols-2 gap-8 leading-relaxed">
+                <div class="space-y-4 text-slate-600">
+                    <p>
+                        يعتبر موقع <strong>DeidaraTV (ديدارا تي في)</strong> الواجهة الأولى لعشاق كرة القدم في الوطن
+                        العربي. نحن ندرك أهمية اللحظة، لذا نوفر لك بثاً مباشراً بدون إعلانات مزعجة تمنعك من الاستمتاع
+                        بأهداف فريقك المفضل.
+                    </p>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 ml-2"></i> بث مباشر للمباريات بجودة Full HD.
+                        </li>
+                        <li><i class="fas fa-check-circle text-green-500 ml-2"></i> توافق تام مع جميع أجهزة الأندرويد
+                            والآيفون.</li>
+                        <li><i class="fas fa-check-circle text-green-500 ml-2"></i> تحديث مستمر للسيرفرات لتجنب التقطيع
+                            أثناء الضغط.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-slate-50 p-6 rounded-2xl border border-dashed border-slate-200">
+                    <h4 class="font-bold text-slate-800 mb-3 italic">تغطية شاملة لكافة البطولات:</h4>
+                    <p class="text-sm text-slate-500 leading-7 italic">
+                        سواء كنت تبحث عن <strong>بث مباشر الدوري المغربي</strong>، الدوري السعودي، أو أقوى مباريات دوري
+                        أبطال أوروبا، فإن ديدارا تي في يضع بين يديك جدولاً محدثاً يومياً بجميع القنوات الناقلة والمعلقين
+                        المفضلين لديك. لا تفوت أي لحظة من الإثارة الكروية معنا.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 bg-white border-t border-slate-200 py-10">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-6 flex justify-center gap-8 text-slate-400 text-xl italic">
+                <i class="fab fa-facebook-f hover:text-red-main cursor-pointer"></i>
+                <i class="fab fa-whatsapp hover:text-red-main cursor-pointer"></i>
+                <i class="fab fa-instagram hover:text-red-main cursor-pointer"></i>
+            </div>
+            <p class="text-slate-500 text-sm font-medium">
+                &copy; 2024 جميع الحقوق محفوظة لـ <span class="text-red-main font-black uppercase">DeidaraTV</span>
+            </p>
+            <p class="text-slate-400 text-[10px] mt-2 italic uppercase tracking-widest">
+                Professional Live Streaming Platform
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

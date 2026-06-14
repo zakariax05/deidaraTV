@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stream Player</title>
+  <!-- Use official CDN links -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #player {
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16/9;
+      background: #000;
+      margin-top: 20px;
+    }
+
+    .controls {
+      margin: 20px;
+    }
+
+    button {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #status {
+      color: #ff4444;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="controls">
+    <button onclick="loadStream('https://3cup-live.s3.eu-west-3.amazonaws.com/max1/master.m3u8')">Try Original
+      Link</button>
+    <button onclick="loadStream('https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8')">Test Working Stream (Big Buck
+      Bunny)</button>
+  </div>
+
+  <div id="player"></div>
+  <div id="status"></div>
+
+  <script>
+    var player;
+
+    function loadStream(url) {
+      document.getElementById('status').innerText = "Attempting to load: " + url;
+
+      // Destroy old player if it exists
+      if (player) { player.destroy(); }
+
+      player = new Clappr.Player({
+        source: url,
+        parentId: "#player",
+        plugins: [LevelSelector],
+        width: '100%',
+        height: '100%',
+        autoPlay: true,
+        mute: true, // Auto-play only works if muted
+        hlsjsConfig: {
+          enableWorker: true
+        },
+        events: {
+          onError: function (e) {
+            console.error('Playback Error', e);
+            document.getElementById('status').innerText = "Status: Error Loading Stream (Link likely expired or CORS blocked).";
+          },
+          onReady: function () {
+            document.getElementById('status').innerText = "Status: Player Ready";
+          }
+        }
+      });
+    }
+
+    // Initialize with your link
+    loadStream('https://3cup-live.s3.eu-west-3.amazonaws.com/max1/master.m3u8');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Fixed Scripts (Changed .xyz to .net) -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+
+  <style>
+    /* Essential styles to keep your layout looking like the original */
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .aplr-player-wrapper {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .aplr-menu {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      display: flex;
+      background: #111;
+      direction: rtl;
+    }
+
+    .aplr-menu li {
+      margin: 0 5px;
+    }
+
+    .aplr-link {
+      color: #ccc;
+      text-decoration: none;
+      padding: 5px 15px;
+      background: #222;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+
+    .aplr-link.active {
+      background: #ff0101;
+      color: #fff;
+    }
+
+    .video-con {
+      width: 100%;
+      height: 56.25vw;
+      max-height: 80vh;
+      background: #000;
+    }
+
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="aplr-player-wrapper nbtn-st-2 nbtn-wd-1 nbtn-sz-s nbtn-pos-t rtl">
+    <!-- Your Original Menu -->
+    <ul class="aplr-menu">
+      <li><a class="aplr-link active" href="https://z1.depoooo.com/albaplayer/bein-1/?serv=1">بث رئيسي</a></li>
+      <li><a class="aplr-link" href="https://z1.depoooo.com/albaplayer/bein-1/?serv=2">جوال</a></li>
+      <li><a class="aplr-link" href="https://z1.depoooo.com/albaplayer/bein-1/?serv=3">بث احتياطي</a></li>
+      <li><a class="aplr-link" href="https://z1.depoooo.com/albaplayer/bein-1/?serv=4">English</a></li>
+    </ul>
+
+    <div class="aplr-player-content">
+      <div class="video-con">
+        <!-- The player must be an EMPTY div. The script below fills it. -->
+        <div id="player"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // This is the script from your original file, fixed.
+    var player = new Clappr.Player({
+      source: "https://3cup-live.s3.eu-west-3.amazonaws.com/max1/master.m3u8",
+      plugins: [LevelSelector],
+      parentId: "#player",
+      width: "100%",
+      height: "100%",
+      autoPlay: true,
+      mute: true, // Required for most browsers to allow auto-play
+      actualLiveTime: true,
+      hlsjsConfig: {
+        enableWorker: true
+      }
+    });
+  </script>
+</body>
+
+</html>

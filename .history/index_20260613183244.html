@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alba Player - beIN 1</title>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/clappr-level-selector-plugin@latest/dist/level-selector.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: sans-serif;
+    }
+
+    /* Menu Styling */
+    .aplr-menu {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .aplr-link {
+      text-decoration: none;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 4px;
+      background: #333;
+      font-size: 14px;
+    }
+
+    .aplr-link.active {
+      background: #ff0101;
+    }
+
+    /* Responsive Video Container */
+    .player-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 1000px;
+      margin: 20px auto;
+      aspect-ratio: 16 / 9;
+      background: #000;
+    }
+
+    #player {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <ul class="aplr-menu">
+    <li><a class="aplr-link active" href="?serv=1">بث رئيسي</a></li>
+    <li><a class="aplr-link" href="?serv=2">جوال</a></li>
+    <li><a class="aplr-link" href="?serv=3">بث احتياطي</a></li>
+    <li><a class="aplr-link" href="?serv=4">English</a></li>
+  </ul>
+
+  <div class="player-wrapper">
+    <div id="player"></div>
+  </div>
+
+  <script>
+    var player = new Clappr.Player({
+      source: "https://3cup-live.s3.eu-west-3.amazonaws.com/max1/master.m3u8",
+      parentId: "#player",
+      plugins: [LevelSelector],
+      width: "100%",
+      height: "100%",
+      autoPlay: true,
+      mute: true, // Most browsers block autoplay with sound
+      mimeType: "application/x-mpegURL",
+      levelSelectorConfig: {
+        title: 'Quality',
+        labels: {
+          2: 'High',
+          1: 'Medium',
+          0: 'Low',
+        },
+      },
+      mediacontrol: { seekbar: "#ff0101", buttons: "#ffffff" },
+    });
+  </script>
+
+</body>
+
+</html>
