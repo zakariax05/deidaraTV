@@ -2,10 +2,18 @@
  * DeidaraTV - FIFA World Cup 2026™ Matches Data
  * ================================================
  * 
- * IMPORTANT: All match times (dateTime) MUST be in UTC/GMT (with "Z" suffix).
+ * IMPORTANT 1: All match times (dateTime) MUST be in UTC/GMT (with "Z" suffix).
  * The website will automatically convert and display them in each visitor's local timezone.
  * 
  * Example: If a match starts at 21:00 Morocco time (GMT+1), enter "2026-06-14T20:00:00Z"
+ * 
+ * IMPORTANT 2: LINK OBFUSCATION
+ * To protect stream URLs from ad network scraping and crawlers, all streaming iframe URLs
+ * must be stored here as Base64 encoded strings.
+ * How to add/change a link:
+ * 1. Take your raw URL (e.g. "https://my-stream-url.com/live")
+ * 2. Encode it to Base64 (you can use an online tool like https://www.base64encode.org/ or run `btoa('your-url')` in your browser console)
+ * 3. Paste the encoded string (e.g. "aHR0cHM6Ly9teS1zdHJlYW0tdXJsLmNvbS9saXZl") into the 'url' property below.
  */
 
 const MATCHES_DATA = [
@@ -28,9 +36,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -49,8 +57,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة B",
     channel: "beIN Sports HD 2",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
   {
@@ -69,9 +77,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
 
@@ -94,8 +102,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 3",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
   {
@@ -114,8 +122,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 2",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
   {
@@ -134,9 +142,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -155,9 +163,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 2",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -176,8 +184,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 3",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
 
@@ -200,8 +208,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
   {
@@ -217,12 +225,12 @@ const MATCHES_DATA = [
     team1Score: 0,
     team2Score: 0,
     dateTime: "2026-06-15T16:00:00Z",
-    league: "كأس العالم 2026 - المجموعة H",
+    league: "كأس لهوندوراس - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -241,9 +249,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 2",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -262,9 +270,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
 
@@ -287,8 +295,8 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 3",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" }
     ]
   },
   {
@@ -307,9 +315,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 1",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   },
   {
@@ -328,9 +336,9 @@ const MATCHES_DATA = [
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 2",
     servers: [
-      { name: "سيرفر 1 (رئيسي)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" },
-      { name: "سيرفر 2", url: "https://p4.panda-hd.online/albaplayer/extra-1" },
-      { name: "سيرفر 3 (متعدد)", url: "https://z1.depoooo.com/albaplayer/bein-1/?serv=1" }
+      { name: "سيرفر 1 (رئيسي)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" },
+      { name: "سيرفر 2", url: "aHR0cHM6Ly9wNC5wYW5kYS1oZC5vbmxpbmUvYWxiYXBsYXllci9leHRyYS0x" },
+      { name: "سيرفر 3 (متعدد)", url: "aHR0cHM6Ly96MS5kZXBvb29vLmNvbS9hbGJhcGxheWVyL2JlaW4tMS8/c2Vydj0x" }
     ]
   }
 ];

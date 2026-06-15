@@ -288,13 +288,23 @@
             document.title = titleText;
             if (matchHeading) matchHeading.textContent = `بث مباشر: ${match.team1.name} × ${match.team2.name}`;
 
+            // دالة فك التشفير الـ Base64 لروابط البث لحمايتها من الكشط (Scraping)
+            function decodeStreamUrl(encodedStr) {
+                try {
+                    return atob(encodedStr);
+                } catch (e) {
+                    console.error("خطأ في فك تشفير رابط البث:", e);
+                    return "";
+                }
+            }
+
             // رندر أزرار السيرفرات وإعداد الرابط الافتراضي
             if (serversContainer && match.servers && match.servers.length > 0) {
                 serversContainer.innerHTML = '';
                 
-                // تعيين السيرفر الأول كافتراضي
+                // تعيين السيرفر الأول كافتراضي (مفكوك التشفير)
                 if (playerIframe) {
-                    playerIframe.src = match.servers[0].url;
+                    playerIframe.src = decodeStreamUrl(match.servers[0].url);
                 }
 
                 match.servers.forEach((server, index) => {
@@ -315,9 +325,9 @@
                         btn.classList.add('active-server', 'bg-red-main', 'text-white');
                         btn.classList.remove('bg-white');
                         
-                        // تحديث مصدر iframe للبث
+                        // تحديث مصدر iframe للبث (مفكوك التشفير)
                         if (playerIframe) {
-                            playerIframe.src = server.url;
+                            playerIframe.src = decodeStreamUrl(server.url);
                         }
                     });
                     
