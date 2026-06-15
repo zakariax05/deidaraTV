@@ -348,7 +348,7 @@
 
                 // تحديث Canonical URL
                 const canonicalLink = document.getElementById('seo-canonical');
-                if (canonicalLink) canonicalLink.setAttribute('href', `https://deidaratv.live/watching-page?id=${match.id}`);
+                if (canonicalLink) canonicalLink.setAttribute('href', `https://deidaratv.live/watching-page/?id=${match.id}`);
 
                 // تحديث كروت التواصل الاجتماعي
                 const ogTitle = document.getElementById('og-title');
@@ -358,7 +358,7 @@
                 if (ogDesc) ogDesc.setAttribute('content', descriptionText);
 
                 const ogUrl = document.getElementById('og-url');
-                if (ogUrl) ogUrl.setAttribute('content', `https://deidaratv.live/watching-page?id=${match.id}`);
+                if (ogUrl) ogUrl.setAttribute('content', `https://deidaratv.live/watching-page/?id=${match.id}`);
 
                 const twitterTitle = document.getElementById('twitter-title');
                 if (twitterTitle) twitterTitle.setAttribute('content', `بث مباشر مباراة ${match.team1.name} ضد ${match.team2.name}`);
@@ -374,7 +374,7 @@
                 const schemaData = {
                     "@context": "https://schema.org",
                     "@type": "SportsEvent",
-                    "@id": `https://deidaratv.live/watching-page?id=${match.id}`,
+                    "@id": `https://deidaratv.live/watching-page/?id=${match.id}`,
                     "name": `مباراة ${match.team1.name} ضد ${match.team2.name}`,
                     "description": `بث مباشر لمباراة ${match.team1.name} ضد ${match.team2.name} في بطولة ${match.league}`,
                     "startDate": match.dateTime,

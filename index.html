@@ -618,7 +618,7 @@
         // مفتوح إذا كان الوقت الحالي بين 30 دقيقة قبل المباراة و 150 دقيقة بعد بدايتها (نهايتها)
         const isLinkActive = (diffMins >= -30 && diffMins <= 150);
 
-        const href = isLinkActive ? `watching-page?id=${match.id}` : `#`;
+        const href = isLinkActive ? `watching-page/?id=${match.id}` : `#`;
 
         let onclick = '';
         if (isLinkActive) {
