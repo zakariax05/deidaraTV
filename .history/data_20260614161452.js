@@ -155,7 +155,7 @@ const MATCHES_DATA = [
     team1: { name: "إسبانيا", logo: "https://flagcdn.com/w160/es.png" },
     team2: { name: "الرأس الأخضر", logo: "https://flagcdn.com/w160/cv.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-15T16:00:00Z",
+    dateTime: "2026-06-15T19:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -165,7 +165,7 @@ const MATCHES_DATA = [
     team1: { name: "بلجيكا", logo: "https://flagcdn.com/w160/be.png" },
     team2: { name: "مصر", logo: "https://flagcdn.com/w160/eg.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-15T19:00:00Z",
+    dateTime: "2026-06-15T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -175,7 +175,7 @@ const MATCHES_DATA = [
     team1: { name: "السعودية", logo: "https://flagcdn.com/w160/sa.png" },
     team2: { name: "أوروغواي", logo: "https://flagcdn.com/w160/uy.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-15T22:00:00Z",
+    dateTime: "2026-06-16T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -185,7 +185,7 @@ const MATCHES_DATA = [
     team1: { name: "إيران", logo: "https://flagcdn.com/w160/ir.png" },
     team2: { name: "نيوزيلندا", logo: "https://flagcdn.com/w160/nz.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-16T01:00:00Z",
+    dateTime: "2026-06-16T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -195,7 +195,7 @@ const MATCHES_DATA = [
     team1: { name: "فرنسا", logo: "https://flagcdn.com/w160/fr.png" },
     team2: { name: "السنغال", logo: "https://flagcdn.com/w160/sn.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-16T19:00:00Z",
+    dateTime: "2026-06-16T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -205,7 +205,7 @@ const MATCHES_DATA = [
     team1: { name: "العراق", logo: "https://flagcdn.com/w160/iq.png" },
     team2: { name: "النرويج", logo: "https://flagcdn.com/w160/no.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-16T22:00:00Z",
+    dateTime: "2026-06-17T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -215,7 +215,7 @@ const MATCHES_DATA = [
     team1: { name: "الأرجنتين", logo: "https://flagcdn.com/w160/ar.png" },
     team2: { name: "الجزائر", logo: "https://flagcdn.com/w160/dz.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-17T01:00:00Z",
+    dateTime: "2026-06-17T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -225,7 +225,7 @@ const MATCHES_DATA = [
     team1: { name: "النمسا", logo: "https://flagcdn.com/w160/at.png" },
     team2: { name: "الأردن", logo: "https://flagcdn.com/w160/jo.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-17T04:00:00Z",
+    dateTime: "2026-06-17T07:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -235,7 +235,7 @@ const MATCHES_DATA = [
     team1: { name: "البرتغال", logo: "https://flagcdn.com/w160/pt.png" },
     team2: { name: "الكونغو الديمقراطية", logo: "https://flagcdn.com/w160/cd.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-17T15:00:00Z",
+    dateTime: "2026-06-17T20:00:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -245,7 +245,7 @@ const MATCHES_DATA = [
     team1: { name: "إنجلترا", logo: "https://flagcdn.com/w160/gb-eng.png" },
     team2: { name: "كرواتيا", logo: "https://flagcdn.com/w160/hr.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-17T20:00:00Z",
+    dateTime: "2026-06-17T23:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -255,7 +255,7 @@ const MATCHES_DATA = [
     team1: { name: "غانا", logo: "https://flagcdn.com/w160/gh.png" },
     team2: { name: "بنما", logo: "https://flagcdn.com/w160/pa.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-11T23:00:00Z",
+    dateTime: "2026-06-18T02:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -265,7 +265,7 @@ const MATCHES_DATA = [
     team1: { name: "أوزبكستان", logo: "https://flagcdn.com/w160/uz.png" },
     team2: { name: "كولومبيا", logo: "https://flagcdn.com/w160/co.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-18T02:00:00Z",
+    dateTime: "2026-06-18T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -279,7 +279,7 @@ const MATCHES_DATA = [
     team1: { name: "التشيك", logo: "https://flagcdn.com/w160/cz.png" },
     team2: { name: "جنوب أفريقيا", logo: "https://flagcdn.com/w160/za.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-18T16:00:00Z",
+    dateTime: "2026-06-18T19:00:00Z",
     league: "كأس العالم 2026 - المجموعة A",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -289,7 +289,7 @@ const MATCHES_DATA = [
     team1: { name: "سويسرا", logo: "https://flagcdn.com/w160/ch.png" },
     team2: { name: "البوسنة والهرسك", logo: "https://flagcdn.com/w160/ba.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-18T19:00:00Z",
+    dateTime: "2026-06-18T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة B",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -299,7 +299,7 @@ const MATCHES_DATA = [
     team1: { name: "كندا", logo: "https://flagcdn.com/w160/ca.png" },
     team2: { name: "قطر", logo: "https://flagcdn.com/w160/qa.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-18T22:00:00Z",
+    dateTime: "2026-06-19T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة B",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -309,7 +309,7 @@ const MATCHES_DATA = [
     team1: { name: "المكسيك", logo: "https://flagcdn.com/w160/mx.png" },
     team2: { name: "كوريا الجنوبية", logo: "https://flagcdn.com/w160/kr.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-19T01:00:00Z",
+    dateTime: "2026-06-19T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة A",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -319,7 +319,7 @@ const MATCHES_DATA = [
     team1: { name: "الولايات المتحدة", logo: "https://flagcdn.com/w160/us.png" },
     team2: { name: "أستراليا", logo: "https://flagcdn.com/w160/au.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-19T19:00:00Z",
+    dateTime: "2026-06-19T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -329,7 +329,7 @@ const MATCHES_DATA = [
     team1: { name: "اسكتلندا", logo: "https://flagcdn.com/w160/gb-sct.png" },
     team2: { name: "المغرب", logo: "https://flagcdn.com/w160/ma.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-19T22:00:00Z",
+    dateTime: "2026-06-20T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -339,7 +339,7 @@ const MATCHES_DATA = [
     team1: { name: "البرازيل", logo: "https://flagcdn.com/w160/br.png" },
     team2: { name: "هايتي", logo: "https://flagcdn.com/w160/ht.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-20T00:30:00Z",
+    dateTime: "2026-06-20T03:30:00Z",
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -349,7 +349,7 @@ const MATCHES_DATA = [
     team1: { name: "تركيا", logo: "https://flagcdn.com/w160/tr.png" },
     team2: { name: "باراغواي", logo: "https://flagcdn.com/w160/py.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-20T03:00:00Z",
+    dateTime: "2026-06-20T06:00:00Z",
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -359,7 +359,7 @@ const MATCHES_DATA = [
     team1: { name: "هولندا", logo: "https://flagcdn.com/w160/nl.png" },
     team2: { name: "السويد", logo: "https://flagcdn.com/w160/se.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-20T17:00:00Z",
+    dateTime: "2026-06-20T20:00:00Z",
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -369,7 +369,7 @@ const MATCHES_DATA = [
     team1: { name: "ألمانيا", logo: "https://flagcdn.com/w160/de.png" },
     team2: { name: "ساحل العاج", logo: "https://flagcdn.com/w160/ci.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-20T20:00:00Z",
+    dateTime: "2026-06-20T23:00:00Z",
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -379,7 +379,7 @@ const MATCHES_DATA = [
     team1: { name: "الإكوادور", logo: "https://flagcdn.com/w160/ec.png" },
     team2: { name: "كوراساو", logo: "https://flagcdn.com/w160/cw.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-21T00:00:00Z",
+    dateTime: "2026-06-21T03:00:00Z",
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -389,7 +389,7 @@ const MATCHES_DATA = [
     team1: { name: "تونس", logo: "https://flagcdn.com/w160/tn.png" },
     team2: { name: "اليابان", logo: "https://flagcdn.com/w160/jp.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-21T04:00:00Z",
+    dateTime: "2026-06-21T07:00:00Z",
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -399,7 +399,7 @@ const MATCHES_DATA = [
     team1: { name: "إسبانيا", logo: "https://flagcdn.com/w160/es.png" },
     team2: { name: "السعودية", logo: "https://flagcdn.com/w160/sa.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-21T16:00:00Z",
+    dateTime: "2026-06-21T19:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -409,7 +409,7 @@ const MATCHES_DATA = [
     team1: { name: "بلجيكا", logo: "https://flagcdn.com/w160/be.png" },
     team2: { name: "إيران", logo: "https://flagcdn.com/w160/ir.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-21T19:00:00Z",
+    dateTime: "2026-06-21T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -419,7 +419,7 @@ const MATCHES_DATA = [
     team1: { name: "أوروغواي", logo: "https://flagcdn.com/w160/uy.png" },
     team2: { name: "الرأس الأخضر", logo: "https://flagcdn.com/w160/cv.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-21T22:00:00Z",
+    dateTime: "2026-06-22T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -429,7 +429,7 @@ const MATCHES_DATA = [
     team1: { name: "نيوزيلندا", logo: "https://flagcdn.com/w160/nz.png" },
     team2: { name: "مصر", logo: "https://flagcdn.com/w160/eg.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-22T01:00:00Z",
+    dateTime: "2026-06-22T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -439,7 +439,7 @@ const MATCHES_DATA = [
     team1: { name: "الأرجنتين", logo: "https://flagcdn.com/w160/ar.png" },
     team2: { name: "النمسا", logo: "https://flagcdn.com/w160/at.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-22T17:00:00Z",
+    dateTime: "2026-06-22T20:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -449,7 +449,7 @@ const MATCHES_DATA = [
     team1: { name: "فرنسا", logo: "https://flagcdn.com/w160/fr.png" },
     team2: { name: "العراق", logo: "https://flagcdn.com/w160/iq.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-22T21:00:00Z",
+    dateTime: "2026-06-23T00:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -459,7 +459,7 @@ const MATCHES_DATA = [
     team1: { name: "النرويج", logo: "https://flagcdn.com/w160/no.png" },
     team2: { name: "السنغال", logo: "https://flagcdn.com/w160/sn.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-23T00:00:00Z",
+    dateTime: "2026-06-23T03:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -469,7 +469,7 @@ const MATCHES_DATA = [
     team1: { name: "الأردن", logo: "https://flagcdn.com/w160/jo.png" },
     team2: { name: "الجزائر", logo: "https://flagcdn.com/w160/dz.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-23T03:00:00Z",
+    dateTime: "2026-06-23T06:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -479,7 +479,7 @@ const MATCHES_DATA = [
     team1: { name: "البرتغال", logo: "https://flagcdn.com/w160/pt.png" },
     team2: { name: "أوزبكستان", logo: "https://flagcdn.com/w160/uz.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-23T17:00:00Z",
+    dateTime: "2026-06-23T20:00:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -489,7 +489,7 @@ const MATCHES_DATA = [
     team1: { name: "إنجلترا", logo: "https://flagcdn.com/w160/gb-eng.png" },
     team2: { name: "غانا", logo: "https://flagcdn.com/w160/gh.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-23T20:00:00Z",
+    dateTime: "2026-06-23T23:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -499,7 +499,7 @@ const MATCHES_DATA = [
     team1: { name: "بنما", logo: "https://flagcdn.com/w160/pa.png" },
     team2: { name: "كرواتيا", logo: "https://flagcdn.com/w160/hr.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-23T23:00:00Z",
+    dateTime: "2026-06-24T02:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 3",
     servers: SHARED_SERVERS
@@ -509,7 +509,7 @@ const MATCHES_DATA = [
     team1: { name: "كولومبيا", logo: "https://flagcdn.com/w160/co.png" },
     team2: { name: "الكونغو الديمقراطية", logo: "https://flagcdn.com/w160/cd.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-24T02:00:00Z",
+    dateTime: "2026-06-24T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -523,7 +523,7 @@ const MATCHES_DATA = [
     team1: { name: "سويسرا", logo: "https://flagcdn.com/w160/ch.png" },
     team2: { name: "كندا", logo: "https://flagcdn.com/w160/ca.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-24T19:00:00Z",
+    dateTime: "2026-06-24T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة B",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -533,7 +533,7 @@ const MATCHES_DATA = [
     team1: { name: "البوسنة والهرسك", logo: "https://flagcdn.com/w160/ba.png" },
     team2: { name: "قطر", logo: "https://flagcdn.com/w160/qa.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-24T19:00:00Z",
+    dateTime: "2026-06-24T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة B",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -543,7 +543,7 @@ const MATCHES_DATA = [
     team1: { name: "اسكتلندا", logo: "https://flagcdn.com/w160/gb-sct.png" },
     team2: { name: "البرازيل", logo: "https://flagcdn.com/w160/br.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-24T22:00:00Z",
+    dateTime: "2026-06-25T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -553,7 +553,7 @@ const MATCHES_DATA = [
     team1: { name: "المغرب", logo: "https://flagcdn.com/w160/ma.png" },
     team2: { name: "هايتي", logo: "https://flagcdn.com/w160/ht.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-24T22:00:00Z",
+    dateTime: "2026-06-25T01:00:00Z",
     league: "كأس العالم 2026 - المجموعة C",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -563,7 +563,7 @@ const MATCHES_DATA = [
     team1: { name: "التشيك", logo: "https://flagcdn.com/w160/cz.png" },
     team2: { name: "المكسيك", logo: "https://flagcdn.com/w160/mx.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T01:00:00Z",
+    dateTime: "2026-06-25T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة A",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -573,7 +573,7 @@ const MATCHES_DATA = [
     team1: { name: "جنوب أفريقيا", logo: "https://flagcdn.com/w160/za.png" },
     team2: { name: "كوريا الجنوبية", logo: "https://flagcdn.com/w160/kr.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T01:00:00Z",
+    dateTime: "2026-06-25T04:00:00Z",
     league: "كأس العالم 2026 - المجموعة A",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -583,7 +583,7 @@ const MATCHES_DATA = [
     team1: { name: "الإكوادور", logo: "https://flagcdn.com/w160/ec.png" },
     team2: { name: "ألمانيا", logo: "https://flagcdn.com/w160/de.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T20:00:00Z",
+    dateTime: "2026-06-25T23:00:00Z",
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -593,7 +593,7 @@ const MATCHES_DATA = [
     team1: { name: "كوراساو", logo: "https://flagcdn.com/w160/cw.png" },
     team2: { name: "ساحل العاج", logo: "https://flagcdn.com/w160/ci.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T20:00:00Z",
+    dateTime: "2026-06-25T23:00:00Z",
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -603,7 +603,7 @@ const MATCHES_DATA = [
     team1: { name: "تونس", logo: "https://flagcdn.com/w160/tn.png" },
     team2: { name: "هولندا", logo: "https://flagcdn.com/w160/nl.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T23:00:00Z",
+    dateTime: "2026-06-26T02:00:00Z",
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -613,7 +613,7 @@ const MATCHES_DATA = [
     team1: { name: "اليابان", logo: "https://flagcdn.com/w160/jp.png" },
     team2: { name: "السويد", logo: "https://flagcdn.com/w160/se.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-25T23:00:00Z",
+    dateTime: "2026-06-26T02:00:00Z",
     league: "كأس العالم 2026 - المجموعة F",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -623,7 +623,7 @@ const MATCHES_DATA = [
     team1: { name: "تركيا", logo: "https://flagcdn.com/w160/tr.png" },
     team2: { name: "الولايات المتحدة", logo: "https://flagcdn.com/w160/us.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-26T02:00:00Z",
+    dateTime: "2026-06-26T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -633,7 +633,7 @@ const MATCHES_DATA = [
     team1: { name: "باراغواي", logo: "https://flagcdn.com/w160/py.png" },
     team2: { name: "أستراليا", logo: "https://flagcdn.com/w160/au.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-26T02:00:00Z",
+    dateTime: "2026-06-26T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة D",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -643,7 +643,7 @@ const MATCHES_DATA = [
     team1: { name: "النرويج", logo: "https://flagcdn.com/w160/no.png" },
     team2: { name: "فرنسا", logo: "https://flagcdn.com/w160/fr.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-26T19:00:00Z",
+    dateTime: "2026-06-26T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -653,7 +653,7 @@ const MATCHES_DATA = [
     team1: { name: "السنغال", logo: "https://flagcdn.com/w160/sn.png" },
     team2: { name: "العراق", logo: "https://flagcdn.com/w160/iq.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-26T19:00:00Z",
+    dateTime: "2026-06-26T22:00:00Z",
     league: "كأس العالم 2026 - المجموعة I",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -663,7 +663,7 @@ const MATCHES_DATA = [
     team1: { name: "أوروغواي", logo: "https://flagcdn.com/w160/uy.png" },
     team2: { name: "إسبانيا", logo: "https://flagcdn.com/w160/es.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T00:00:00Z",
+    dateTime: "2026-06-27T03:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -673,7 +673,7 @@ const MATCHES_DATA = [
     team1: { name: "الرأس الأخضر", logo: "https://flagcdn.com/w160/cv.png" },
     team2: { name: "السعودية", logo: "https://flagcdn.com/w160/sa.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T00:00:00Z",
+    dateTime: "2026-06-27T03:00:00Z",
     league: "كأس العالم 2026 - المجموعة H",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -683,7 +683,7 @@ const MATCHES_DATA = [
     team1: { name: "نيوزيلندا", logo: "https://flagcdn.com/w160/nz.png" },
     team2: { name: "بلجيكا", logo: "https://flagcdn.com/w160/be.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T03:00:00Z",
+    dateTime: "2026-06-27T06:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -693,7 +693,7 @@ const MATCHES_DATA = [
     team1: { name: "مصر", logo: "https://flagcdn.com/w160/eg.png" },
     team2: { name: "إيران", logo: "https://flagcdn.com/w160/ir.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T03:00:00Z",
+    dateTime: "2026-06-27T06:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -703,7 +703,7 @@ const MATCHES_DATA = [
     team1: { name: "بنما", logo: "https://flagcdn.com/w160/pa.png" },
     team2: { name: "إنجلترا", logo: "https://flagcdn.com/w160/gb-eng.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T21:00:00Z",
+    dateTime: "2026-06-28T00:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -713,7 +713,7 @@ const MATCHES_DATA = [
     team1: { name: "كرواتيا", logo: "https://flagcdn.com/w160/hr.png" },
     team2: { name: "غانا", logo: "https://flagcdn.com/w160/gh.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T21:00:00Z",
+    dateTime: "2026-06-28T00:00:00Z",
     league: "كأس العالم 2026 - المجموعة L",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -723,7 +723,7 @@ const MATCHES_DATA = [
     team1: { name: "كولومبيا", logo: "https://flagcdn.com/w160/co.png" },
     team2: { name: "البرتغال", logo: "https://flagcdn.com/w160/pt.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T23:30:00Z",
+    dateTime: "2026-06-28T02:30:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -733,7 +733,7 @@ const MATCHES_DATA = [
     team1: { name: "الكونغو الديمقراطية", logo: "https://flagcdn.com/w160/cd.png" },
     team2: { name: "أوزبكستان", logo: "https://flagcdn.com/w160/uz.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-27T23:30:00Z",
+    dateTime: "2026-06-28T02:30:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
@@ -743,7 +743,7 @@ const MATCHES_DATA = [
     team1: { name: "الأردن", logo: "https://flagcdn.com/w160/jo.png" },
     team2: { name: "الأرجنتين", logo: "https://flagcdn.com/w160/ar.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-28T02:00:00Z",
+    dateTime: "2026-06-28T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 1",
     servers: SHARED_SERVERS
@@ -753,7 +753,7 @@ const MATCHES_DATA = [
     team1: { name: "الجزائر", logo: "https://flagcdn.com/w160/dz.png" },
     team2: { name: "النمسا", logo: "https://flagcdn.com/w160/at.png" },
     team1Score: 0, team2Score: 0,
-    dateTime: "2026-06-28T02:00:00Z",
+    dateTime: "2026-06-28T05:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 2",
     servers: SHARED_SERVERS
