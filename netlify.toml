@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[optimization]
+  bundle = true
+  minify = true
+  compress = true
+  [optimization.pretty_urls]
+    enabled = true
