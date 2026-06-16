@@ -164,7 +164,7 @@ const MATCHES_DATA = [
     id: 14,
     team1: { name: "بلجيكا", logo: "https://flagcdn.com/w160/be.png" },
     team2: { name: "مصر", logo: "https://flagcdn.com/w160/eg.png" },
-    team1Score: 0, team2Score: 0,
+    team1Score: 1, team2Score: 1,
     dateTime: "2026-06-15T19:00:00Z",
     league: "كأس العالم 2026 - المجموعة G",
     channel: "beIN Sports HD 2",
