@@ -234,7 +234,7 @@ const MATCHES_DATA = [
     id: 21,
     team1: { name: "البرتغال", logo: "https://flagcdn.com/w160/pt.png" },
     team2: { name: "الكونغو الديمقراطية", logo: "https://flagcdn.com/w160/cd.png" },
-    team1Score: 0, team2Score: 0,
+    team1Score: 1, team2Score: 1,
     dateTime: "2026-06-17T15:00:00Z",
     league: "كأس العالم 2026 - المجموعة K",
     channel: "beIN Sports HD 1",
