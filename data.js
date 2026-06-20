@@ -368,7 +368,7 @@ const MATCHES_DATA = [
     id: 34,
     team1: { name: "ألمانيا", logo: "https://flagcdn.com/w160/de.png" },
     team2: { name: "ساحل العاج", logo: "https://flagcdn.com/w160/ci.png" },
-    team1Score: 0, team2Score: 0,
+    team1Score: 1, team2Score: 1,
     dateTime: "2026-06-20T20:00:00Z",
     league: "كأس العالم 2026 - المجموعة E",
     channel: "beIN Sports HD 1",
