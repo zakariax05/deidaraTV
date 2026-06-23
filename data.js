@@ -438,7 +438,7 @@ const MATCHES_DATA = [
     id: 41,
     team1: { name: "الأرجنتين", logo: "https://flagcdn.com/w160/ar.png" },
     team2: { name: "النمسا", logo: "https://flagcdn.com/w160/at.png" },
-    team1Score: 1, team2Score: 0,
+    team1Score: 2, team2Score: 0,
     dateTime: "2026-06-22T17:00:00Z",
     league: "كأس العالم 2026 - المجموعة J",
     channel: "beIN Sports HD 1",
